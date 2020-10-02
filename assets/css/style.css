@@ -112,3 +112,31 @@ body {
 	line-height: 1.5;
 	border-radius: .3rem;
 }
+
+/*-------------------------------------------Footer Section*/
+
+footer {
+    background: #4d4d55;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.footer-content h3 {
+    font-size: 3rem;
+    color: white;
+}
+
+.footer-content p {
+    font-size: 2rem;
+    color: white;
+}
+
+.footer-content h5 {
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-social {
+    text-align: center;
+}
+
