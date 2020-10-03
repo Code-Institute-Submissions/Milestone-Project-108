@@ -1,8 +1,13 @@
+/*-------------------------------------------Imported Google Fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&display=swap');
+
+/*-------------------------------------------Global Font-Size set to 10px*/
 * {
 	font-size: 10px;
 }
 
+/*-------------------------------------------General*/
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -10,14 +15,13 @@ body {
 p {
 	font-family: 'Quicksand', sans-serif;
 }
-
-
-/*-------------------------------------------Colours*/
-
 .uppercase {
 	text-transform: uppercase;
 	font-size: 3rem;
 }
+
+
+/*-------------------------------------------Colours*/
 
 
 /*-------------------------------------------Navbar*/
@@ -75,7 +79,7 @@ p {
 }
 
 
-/*-------------------------------------------Callout*/
+/*-------------------------------------------Callout Section*/
 
 .callout-section {
 	height: 75vh;
@@ -105,8 +109,11 @@ p {
 	color: rgb(7, 7, 7);
 }
 
-
 /*-------------------------------------------About Section*/
+
+.about-section {
+    padding-top: 50px;
+}
 
 .about-section p {
 	color: #4d4d55;
@@ -121,6 +128,16 @@ p {
 	border-radius: .3rem;
 }
 
+.about-image {
+    width: 100%;
+}
+
+/*-------------------------------------------Carousel Section*/
+
+.carousel-image {
+    height: 600px;
+    object-fit: cover;
+}
 
 /*-------------------------------------------Footer Section*/
 
