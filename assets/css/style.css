@@ -41,8 +41,15 @@ p {
     border: none;
 }
 
+.btn-bg-white {
+    background: #ffffff;
+    color: #4d4d55;
+    border: none;
+}
+
 .btn:hover {
     background: black;
+    color: #ffffff;
 
 }
 
@@ -55,6 +62,14 @@ p {
 .navbar-brand {
 	font-size: 5rem;
 	font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 120px;
+    padding-right: 15px;
+    padding-left: 5px;
 }
 
 .navbar-light .navbar-brand {
@@ -104,7 +119,7 @@ p {
 
 .callout-section {
 	height: 75vh;
-	background: url('../images/dog-image-1.jpg') no-repeat;
+	background: url('../images/dog-image-hero.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -116,7 +131,7 @@ p {
 }
 
 .jumbotron {
-	
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .display-4 {
@@ -161,6 +176,15 @@ p {
 .carousel-image {
     height: 600px;
     object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 40px;
+}
+
+.carousel-item p {
+    font-size: 3rem;
 }
 
 /*-------------------------------------------Footer Section*/
