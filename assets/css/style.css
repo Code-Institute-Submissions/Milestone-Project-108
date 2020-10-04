@@ -38,20 +38,20 @@ p {
 
 /*-------------------------------------------Colours*/
 
-.bg-white {
+.bg--white {
 	background: #ffffff
 }
 
-.black-text {
+.black--text {
 	color: rgb(7, 7, 7)
 }
 
-.btn-bg-charcoal {
+.btn-bg--charcoal {
 	background: #4d4d55;
 	border: none;
 }
 
-.btn-bg-white {
+.btn-bg--white {
 	background: #ffffff;
 	color: #4d4d55;
 	border: none;
@@ -62,19 +62,19 @@ p {
 	color: #ffffff;
 }
 
-.btn-bg-orange {
+.btn-bg--orange {
 	background: #fbc117;
 	color: #4d4d55;
 	border: none;
 }
 
-.btn-bg-orange:hover {
+.btn-bg--orange:hover {
 	background: #ffffff;
 	color: #4d4d55;
 	border: none;
 }
 
-.block-divider-orange {
+.block-divider--orange {
     background: #fbc117;
 }
 
@@ -85,8 +85,6 @@ p {
 }
 
 .navbar-brand {
-	font-size: 5rem;
-	font-weight: bold;
 	padding: 0;
 	margin: 0;
 }
@@ -104,15 +102,14 @@ p {
 
 .navbar-toggler-icon {
 	display: inline-block;
-	width: 3.5rem;
+	width: 3rem;
 	height: 3.5rem;
-    color: black;
 }
 
 .nav-link {
 	display: block;
 	padding: .5rem 1rem;
-	font-size: 3rem;
+	font-size: 2.5rem;
     color: #4d4d55;
     letter-spacing: .25rem;
 }
@@ -167,7 +164,10 @@ p {
 	font-size: 2rem;
 }
 
-.btn-group-lg>.btn,
+.about-image {
+	width: 100%;
+}
+
 .btn-lg {
 	padding: .5rem 1rem;
 	font-size: 3.5rem;
@@ -175,26 +175,23 @@ p {
 	border-radius: .3rem;
 }
 
-.about-image {
-	width: 100%;
-}
-
 
 /*-------------------------------------------Carousel Section*/
 
 .features-section {
-     padding-top: 2rem;
-	 padding-left: 1rem;
+     padding-top: 1rem;
 }
 
 .features-section h2 {
-     padding-bottom: 2rem;
+     padding-bottom: 1rem;
      font-weight: bold;
 }
+
 
 .carousel-image {
 	height: 60rem;
 	object-fit: cover;
+    padding-top: 1rem;
 }
 
 .carousel-caption {
@@ -238,7 +235,7 @@ footer {
 	margin-bottom: 1.5rem;
 }
 
-.btn-footer-cta {
+.btn-footer--cta {
 	font-size: 2rem;
 }
 
