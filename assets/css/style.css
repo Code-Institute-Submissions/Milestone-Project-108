@@ -3,11 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&display=swap');
 
 /*-------------------------------------------Global Font-Size set to 10px*/
+
 * {
 	font-size: 10px;
 }
 
+
 /*-------------------------------------------General*/
+
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -15,43 +18,56 @@ body {
 p {
 	font-family: 'Quicksand', sans-serif;
 }
+
 .uppercase {
 	text-transform: uppercase;
 	font-size: 3rem;
 }
 
 .container-fluid {
-    padding: 0;
-    margin: auto;
+	padding: 0;
+	margin: auto;
 }
 
 
 /*-------------------------------------------Colours*/
 
 .bg-white {
-    background: #ffffff
+	background: #ffffff
 }
 
 .black-text {
-    color: rgb(7, 7, 7)
+	color: rgb(7, 7, 7)
 }
 
 .btn-bg-charcoal {
-    background: #4d4d55;
-    border: none;
+	background: #4d4d55;
+	border: none;
 }
 
 .btn-bg-white {
-    background: #ffffff;
-    color: #4d4d55;
-    border: none;
+	background: #ffffff;
+	color: #4d4d55;
+	border: none;
 }
 
 .btn:hover {
-    background: black;
-    color: #ffffff;
-
+	background: #fbc117;
+	color: #ffffff;
 }
+
+.btn-bg-orange {
+	background: #fbc117;
+	color: #4d4d55;
+	border: none;
+}
+
+.btn-bg-orange:hover {
+	background: #ffffff;
+	color: #4d4d55;
+	border: none;
+}
+
 
 /*-------------------------------------------Navbar*/
 
@@ -62,14 +78,14 @@ p {
 .navbar-brand {
 	font-size: 5rem;
 	font-weight: bold;
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .logo {
-    height: 120px;
-    padding-right: 15px;
-    padding-left: 5px;
+	height: 120px;
+	padding-right: 15px;
+	padding-left: 5px;
 }
 
 .navbar-light .navbar-brand {
@@ -145,13 +161,13 @@ p {
 	color: rgb(7, 7, 7);
 }
 
+
 /*-------------------------------------------About Section*/
 
 .about-section {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 }
 
 .about-section p {
@@ -168,42 +184,68 @@ p {
 }
 
 .about-image {
-    width: 100%;
+	width: 100%;
 }
+
 
 /*-------------------------------------------Carousel Section*/
 
 .carousel-image {
-    height: 600px;
-    object-fit: cover;
+	height: 600px;
+	object-fit: cover;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 40px;
 }
 
 .carousel-item p {
-    font-size: 3rem;
+	font-size: 3rem;
 }
+
+.carousel-indicators li {
+	background-color: #fbc117;
+}
+
 
 /*-------------------------------------------Footer Section*/
 
 footer {
 	background-color: #4d4d55;
 	color: #fafafa;
-	min-height: 120px;
+	min-height: 12rem;
 	margin: 0;
 }
 
 .footer-section h3 {
 	font-size: 3rem;
-	padding: 10px;
+	padding: 1rem;
+}
+
+.footer-section p {
+	font-size: 2rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 1rem;
+	margin: 0;
+}
+
+.btn-footer {
+	font-size: 2rem;
+	padding-left: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.btn-footer-cta {
+	font-size: 2rem;
 }
 
 .service-links {
 	list-style: none;
-	padding: 10px;
+	padding-right: 1rem;
+	padding-left: 0;
+	margin: 0;
 }
 
 .service-links li a {
@@ -212,23 +254,22 @@ footer {
 }
 
 .social-links {
-	padding-bottom: 15px;
-	text-align: center;
+	padding: 1rem;
+	padding-top: 0;
 }
 
 .social-links li a i {
-	width: 40px;
-	height: 40px;
-	padding: 12px 0;
-	border-radius: 15%;
+	width: 4rem;
+	height: 4rem;
+	padding: 1.2rem 0;
+	border-radius: 50%;
 	font-size: 3rem;
 	line-height: 1.5rem;
-	text-align: center;
-	color: black;
+	color: #ffffff;
 }
 
 .social-links li a i:hover {
-	background: black;
+	background: #fbc117;
 }
 
 .footer-copyright {
