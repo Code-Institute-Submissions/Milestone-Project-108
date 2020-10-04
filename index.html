@@ -12,8 +12,8 @@
    <body>
       <!-- Navbar -->
       <div class="container-fluid">
-         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo.png" alt=""></a>
+         <nav class="navbar navbar-expand-lg color: navbar-light bg-white">
+            <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo-image.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,6 +46,7 @@
             </div>
          </nav>
          <!-- /.Navbar -->
+
          <!-- Call Out Section -->
          <div class="row">
             <div class="col-12">
@@ -59,21 +60,31 @@
          </div>
          <hr>
          <!-- /.Call Out Section -->
+
          <!-- About Section -->
          <section class="about-section">
             <div class="row">
-               <div class="col-sm-6">
+               <div class="col-sm-6 text-center text-sm-left">
                   <h2 class="uppercase">About Us</h2>
+                  <hr class="block-divider block-divider-orange">
                   <p>        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                      aliquip ex ea commodo consequat
                   </p>
+                  <br>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
                      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                      aliquip ex ea commodo consequat
                   </p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                     aliquip ex ea commodo consequat
+                  </p>
+                  <br>
                   <a class="btn btn-primary btn-lg btn-bg-charcoal" href="#" role="button">Read more</a>
                </div>
                <div class="col-sm-6">
@@ -83,9 +94,11 @@
          </section>
          <hr>
          <!-- /.About Section -->
+
          <!-- Features Section -->
-         <section class="carousel">
-            <h2 class="uppercase">Our Training Programs</h2>
+         <section class="features-section carousel">
+            <h2 class="uppercase text-center">Our Training Programs</h2>
+            <hr class="block-divider block-divider-orange">
             <div id="dogtrainingCarousel" class="carousel slide" data-ride="carousel">
                <ol class="carousel-indicators">
                   <li data-target="#dogtrainingCarousel" data-slide-to="0" class="active"></li>
@@ -135,14 +148,13 @@
          </section>
          <hr>
          <!-- /.Features Section -->
-         <!-- Gallery Section -->
-         <!-- /.Gallery Section -->
+
          <!-- Footer Section -->
          <footer class="footer-section">
             <div class="row">
                <div class="col-sm-4 text-center text-sm-left">
                   <h3 class="uppercase">Get In Touch</h3>
-                  <p class="footer-contact">Scotty's Dog Training & behaviour</p>
+                  <p class="footer-contact">Scotty's Dog Training & Behaviour</p>
                   <p class="footer-contact">South Dublin</p>
                   <p class="footer-contact">+353 862175988</p>
                   <button class="btn btn-primary btn-md btn-bg-orange btn-footer" data-toggle="modal" data-target="#contactModal">Message Us!</button>
@@ -193,7 +205,8 @@
             </div>
          </footer>
          <!-- /.Footer Section -->
-         <!-- Forms -->
+
+         <!-- Model Form -->
          <div class="modal" tabindex="-1" role="dialog" id="contactModal">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
@@ -206,26 +219,27 @@
                   <div class="modal-body">
                      <form>
                         <div class="form-group">
-                           <label for="emailAddress">Email address</label>
-                           <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
-                           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                           <label class="modal-text-md" for="emailAddress">Email address</label>
+                           <input type="email" class="form-control modal-text-ph" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter email">
+                           <small id="emailHelp" class="form-text text-muted modal-text-sm">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                           <label for="phoneNumber">Phone number</label>
-                           <input type="text" class="form-control" id="phoneNumber" aria-describedby="phoneHelp" placeholder="Enter phone number">
-                           <small id="phoneHelp" class="form-text text-muted">Please tell us in your message if you would like us to call you back.</small>
+                           <label class="modal-text-md" for="phoneNumber">Phone number</label>
+                           <input type="text" class="form-control modal-text-ph" id="phoneNumber" aria-describedby="phoneHelp" placeholder="Enter phone number">
+                           <small id="phoneHelp" class="form-text text-muted modal-text-sm">Please tell us in your message if you would like us to call you back.</small>
                         </div>
                         <div class="form-group">
-                           <label for="message-text" class="col-form-label">Message:</label>
+                           <label for="message-text" class="col-form-label modal-text-md">Message:</label>
                            <textarea class="form-control" id="message-text"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-bg-charcoal modal-text-md">Submit</button>
                      </form>
                   </div>
                </div>
             </div>
          </div>
-         <!-- /.Forms -->
+         <!-- /.Model Form -->
+
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
