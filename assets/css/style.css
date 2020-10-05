@@ -1,15 +1,12 @@
 /*-------------------------------------------Imported Google Fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&display=swap');
 
 /*-------------------------------------------Global Font-Size set to 10px*/
-
 * {
 	font-size: 10px;
 }
 
 /*-------------------------------------------General*/
-
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -35,9 +32,14 @@ p {
 	background-color: #4d4d55;
 }
 
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
 
 /*-------------------------------------------Colours*/
-
 .bg--white {
 	background: #ffffff
 }
@@ -75,11 +77,10 @@ p {
 }
 
 .block-divider--orange {
-    background: #fbc117;
+	background: #fbc117;
 }
 
 /*-------------------------------------------Navbar*/
-
 .navbar {
 	margin-bottom: 0;
 }
@@ -110,19 +111,25 @@ p {
 	display: block;
 	padding: .5rem 1rem;
 	font-size: 2.5rem;
-    color: #4d4d55;
-    letter-spacing: .25rem;
+	color: #4d4d55;
+	letter-spacing: .25rem;
 }
 
 .dropdown-item {
-	padding: 0.25rem 1rem;
+	padding: .25rem 1rem;
 	font-weight: 400;
 	font-size: 1.75rem;
 	color: #4d4d55;
 }
 
-/*-------------------------------------------Callout Section*/
+#phoneNav {
+	font-size: 2rem;
+	color: #4d4d55;
+	padding: 0;
+	margin: 0;
+}
 
+/*-------------------------------------------Callout Section*/
 .callout-section {
 	height: 75vh;
 	background: url('../images/dog-image-hero.jpg') no-repeat;
@@ -148,7 +155,6 @@ p {
 }
 
 /*-------------------------------------------About Section*/
-
 .about-section {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -156,7 +162,7 @@ p {
 }
 
 .about-section h2 {
-    text-align: center;
+	text-align: center;
 }
 
 .about-section p {
@@ -175,23 +181,25 @@ p {
 	border-radius: .3rem;
 }
 
-
 /*-------------------------------------------Carousel Section*/
-
 .features-section {
-     padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 .features-section h2 {
-     padding-bottom: 1rem;
-     font-weight: bold;
+	padding-bottom: 1rem;
+	font-weight: bold;
 }
 
+.features-section h3 {
+	font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+}
 
 .carousel-image {
 	height: 60rem;
 	object-fit: cover;
-    padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 .carousel-caption {
@@ -207,8 +215,8 @@ p {
 	background-color: #fbc117;
 }
 
-/*-------------------------------------------Footer Section*/
 
+/*-------------------------------------------Footer Section*/
 footer {
 	background-color: #4d4d55;
 	color: #fafafa;
@@ -216,9 +224,16 @@ footer {
 	margin: 0;
 }
 
+#phone {
+	font-size: 2rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-left: 1rem;
+	margin: 0;
+	color: #ffffff;
+}
+
 .footer-section h3 {
 	font-size: 3rem;
-	padding: 1rem;
 }
 
 .footer-section p {
@@ -276,21 +291,20 @@ footer {
 	background: #adb5bd26;
 }
 
-/*-------------------------------------------Forms*/
 
+/*-------------------------------------------Forms*/
 .modal-title {
-    font-size: 3rem;
+	font-size: 3rem;
 }
 
 .modal-text-md {
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 .modal-text-sm {
-    font-size: 1.75rem;
+	font-size: 1.75rem;
 }
 
 .modal-text-ph {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
-
