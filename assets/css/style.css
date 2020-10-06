@@ -21,7 +21,7 @@ p {
 }
 
 .container-fluid {
-	padding: 0;
+	padding: 1rem;
 	margin: auto;
 }
 
@@ -225,7 +225,7 @@ h4 {
 
 /*-------------------------------------------Gallery Section*/
 .gallery-section {
-	padding-top: 1rem;
+	padding: 1rem 0;
 }
 
 .gallery-section h2 {
@@ -238,7 +238,18 @@ h4 {
     text-align: center;
 }
 
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: 320px;
+    grid-gap: 1rem;
+}
 
+.gallery-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%
+}
 
 /*-------------------------------------------Footer Section*/
 footer {
@@ -314,7 +325,6 @@ footer {
 	font-size: 1.5rem;
 	background: #adb5bd26;
 }
-
 
 /*-------------------------------------------Forms*/
 .modal-title {
