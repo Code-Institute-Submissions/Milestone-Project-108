@@ -101,6 +101,12 @@ h4 {
 	padding-bottom: 2rem;
 }
 
+.navbar-nav a {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    
+}
+
 .navbar-toggler-icon {
 	display: inline-block;
 	width: 3rem;
@@ -118,8 +124,9 @@ h4 {
 .dropdown-item {
 	padding: .25rem 1rem;
 	font-weight: 400;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	color: #4d4d55;
+    margin: 0;
 }
 
 #phoneNav {
@@ -131,7 +138,7 @@ h4 {
 
 /*-------------------------------------------Callout Section*/
 .callout-section {
-	height: 75vh;
+	height: 70vh;
 	background: url('../images/dog-image-hero.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -172,6 +179,8 @@ h4 {
 
 .about-image {
 	width: 100%;
+    padding-top: 1rem;
+    height: 65rem;
 }
 
 .btn-lg {
@@ -188,7 +197,6 @@ h4 {
 
 .features-section h2 {
 	padding-bottom: 1rem;
-	font-weight: bold;
 }
 
 .features-section h3 {
@@ -215,6 +223,22 @@ h4 {
 	background-color: #fbc117;
 }
 
+/*-------------------------------------------Gallery Section*/
+.gallery-section {
+	padding-top: 1rem;
+}
+
+.gallery-section h2 {
+	padding-bottom: 1rem;
+}
+
+.gallery-section h3 {
+	font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+
 
 /*-------------------------------------------Footer Section*/
 footer {
@@ -224,7 +248,7 @@ footer {
 	margin: 0;
 }
 
-#phone {
+.phone {
 	font-size: 2rem;
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding-left: 1rem;
@@ -295,6 +319,7 @@ footer {
 /*-------------------------------------------Forms*/
 .modal-title {
 	font-size: 3rem;
+    color: rgb(7, 7, 7)
 }
 
 .modal-text-md {
@@ -308,3 +333,7 @@ footer {
 .modal-text-ph {
 	font-size: 1.5rem;
 }
+
+ .close span {
+     font-size: 3rem;
+ }
