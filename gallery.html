@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Scotty's Dog Training</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg text-right navbar-light bg--white">
+            <a class="navbar-brand" href="#"><img class="logo" src="assets/images/logo-image1.png" alt="image of business brand logo which has brand name and animation of a dog"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item d-lg-none d-md-none">
+                     <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown d-none d-md-block">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Services
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Puppy Training</a>
+                        <a class="dropdown-item" href="#">Off Leash Freedom</a>
+                        <a class="dropdown-item" href="#">Good Manners</a>
+                        <a class="dropdown-item" href="#">Dog to Dog Reactivity</a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <!-- /.Navbar -->
+         <!-- Gallery Section -->
+
+         
+         <!-- Gallery Section -->
+         <footer class="footer-section">
+            <div class="row">
+               <div class="col-12 col-md-4 text-center">
+                  <h3 class="uppercase">Get In Touch</h3>
+                  <p>Scotty's Dog Training & Behaviour</p>
+                  <p>South Dublin</p>
+                  <p><a href="tel:0862175988" class="phone">0862175988</a></p>
+                  <button class="btn btn-primary btn-md btn-bg--orange btn-footer" data-toggle="modal"
+                     data-target="#contactModal">Message Us!
+                  </button>
+               </div>
+               <div class="col-12 col-md-4 text-center">
+                  <h3 class="uppercase">Follow Us</h3>
+                  <ul class="list-inline social-links">
+                     <li class="list-inline-item">
+                        <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-12 col-md-4 text-center">
+                  <h3 class="uppercase">Read More</h3>
+                  <ul class="inline-block service-links">
+                     <li class="inline-block-item">
+                        <span class="badge badge-success btn btn-primary btn-md btn-bg--orange btn-footer--cta">NEW!</span>
+                        <a href="/">Online Training</a>
+                     </li>
+                     <li class="inline-block-item">
+                        <a href="/">Dog To Dog Reactivity</a>
+                     </li>
+                     <li class="inline-block-item">
+                        <a href="/">Freedom Off Leash</a>
+                     </li>
+                     <li class="inline-block-item">
+                        <a href="/">Good Manners</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: Scott Frew</div>
+         </footer>
+         <!-- /.Footer Section -->
+         <!-- Model Form -->
+         <div class="modal" tabindex="-1" role="dialog" id="contactModal">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title">Send us a message and we'll get back to you!</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <form>
+                        <div class="form-group">
+                           <label class="modal-text-md" for="emailAddress">Email address</label>
+                           <input type="email" class="form-control modal-text-ph" id="emailAddress"
+                              aria-describedby="emailHelp" placeholder="Enter email">
+                           <small id="emailHelp" class="form-text text-muted modal-text-sm">We'll never share your
+                           email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                           <label class="modal-text-md" for="phoneNumber">Phone number</label>
+                           <input type="text" class="form-control modal-text-ph" id="phoneNumber"
+                              aria-describedby="phoneHelp" placeholder="Enter phone number">
+                           <small id="phoneHelp" class="form-text text-muted modal-text-sm">Please tell us in your
+                           message if you would like us to call you back.</small>
+                        </div>
+                        <div class="form-group">
+                           <label for="message-text" class="col-form-label modal-text-md">Message:</label>
+                           <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal modal-text-md">Submit
+                        </button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- /.Model Form -->
+         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      </div>
+   </body>
+</html>
