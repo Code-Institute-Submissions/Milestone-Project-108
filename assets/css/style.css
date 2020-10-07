@@ -18,6 +18,7 @@ p {
 .uppercase {
 	text-transform: uppercase;
 	font-size: 3rem;
+    color: #4d4d55;
 }
 
 .container-fluid {
@@ -168,19 +169,18 @@ h4 {
 	padding-left: 1rem;
 }
 
-.about-section h2 {
-	text-align: center;
-}
-
-.about-section p {
-	color: #4d4d55;
-	font-size: 2rem;
+.about-section h3 {
+    font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+    color: #4d4d55;
 }
 
 .about-image {
-	width: 100%;
-    padding-top: 1rem;
-    height: 65rem;
+background: url("../images/dog-image-running.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
 }
 
 .btn-lg {
@@ -200,8 +200,9 @@ h4 {
 }
 
 .features-section h3 {
-	font-size: 2rem;
+    font-size: 2rem;
 	font-family: 'Quicksand', sans-serif;
+    color: #4d4d55;
 }
 
 .carousel-image {
@@ -350,7 +351,6 @@ footer {
 
 
  /*-------------------------------------------Services Section*/
-
  .services-image {
 	background: url("../images/dog-image-running.jpg");
 	background-position: center;
@@ -360,7 +360,8 @@ footer {
  }
 
  .services-section h3 {
-     font-size: 2rem;
+    font-size: 2rem;
 	font-family: 'Quicksand', sans-serif;
     text-align: center;
+    color: #4d4d55;
  }
