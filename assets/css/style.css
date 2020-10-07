@@ -347,3 +347,20 @@ footer {
  .close span {
      font-size: 3rem;
  }
+
+
+ /*-------------------------------------------Services Section*/
+
+ .services-image {
+	background: url("../images/dog-image-running.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 360px;
+ }
+
+ .services-section h3 {
+     font-size: 2rem;
+	font-family: 'Quicksand', sans-serif;
+    text-align: center;
+ }
