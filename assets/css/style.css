@@ -18,13 +18,12 @@ p {
 .uppercase {
 	text-transform: uppercase;
 	font-size: 3rem;
-    color: #4d4d55;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
 
 .container-fluid {
-	padding: 1rem;
+	padding: 2rem;
 	margin: auto;
 }
 
@@ -172,7 +171,6 @@ h4 {
 .about-section {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	padding-left: 1rem;
 }
 
 .about-section h3 {
@@ -379,3 +377,25 @@ footer {
  .services-section h3 a {
     text-align: center;
  }
+
+/*-------------------------------------------Contact Section*/
+ .contact-section {
+     font-size: 3rem;
+ }
+
+ .form-title {
+	font-size: 3rem;
+    color: rgb(7, 7, 7)
+}
+
+.form-text-md {
+	font-size: 2rem;
+}
+
+.form-text-sm {
+	font-size: 1.75rem;
+}
+
+.form-text-ph {
+	font-size: 1.5rem;
+}
