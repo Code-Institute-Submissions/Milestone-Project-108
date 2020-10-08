@@ -234,24 +234,22 @@
                   <div class="modal-body">
                      <form>
                         <div class="form-group">
-                           <label class="modal-text-md" for="emailAddress">Email address</label>
-                           <input type="email" class="form-control modal-text-ph" id="emailAddress"
+                           <label for="fullName">Name</label>
+                           <input type="text" class="form-control" id="fullName"
+                              aria-describedby="nameHelp" placeholder="Enter full name">
+                        </div>
+                        <div class="form-group">
+                           <label for="emailAddress">Email Address</label>
+                           <input type="email" class="form-control" id="emailAddress"
                               aria-describedby="emailHelp" placeholder="Enter email">
-                           <small id="emailHelp" class="form-text text-muted modal-text-sm">We'll never share your
+                           <small id="emailHelp" class="form-text">We'll never share your
                            email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                           <label class="modal-text-md" for="phoneNumber">Phone number</label>
-                           <input type="text" class="form-control modal-text-ph" id="phoneNumber"
-                              aria-describedby="phoneHelp" placeholder="Enter phone number">
-                           <small id="phoneHelp" class="form-text text-muted modal-text-sm">Please tell us in your
-                           message if you would like us to call you back.</small>
-                        </div>
-                        <div class="form-group">
-                           <label for="message-text" class="col-form-label modal-text-md">Message:</label>
+                           <label for="message-text" class="col-form-label">Message:</label>
                            <textarea class="form-control" id="message-text"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal modal-text-md">Submit
+                        <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal btn-modal">Submit
                         </button>
                      </form>
                   </div>

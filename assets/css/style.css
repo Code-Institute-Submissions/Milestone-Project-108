@@ -340,20 +340,12 @@ footer {
     color: rgb(7, 7, 7)
 }
 
-.modal-text-md {
-	font-size: 2rem;
-}
-
-.modal-text-sm {
-	font-size: 1.75rem;
-}
-
-.modal-text-ph {
-	font-size: 1.5rem;
-}
-
  .close span {
      font-size: 3rem;
+ }
+
+ .btn-modal {
+     font-size: 1.5rem;
  }
 
 
@@ -371,7 +363,6 @@ footer {
 	font-family: 'Quicksand', sans-serif;
     color: #4d4d55;
     margin-bottom: 2rem;
-    
  }
 
  .services-section h3 a {
