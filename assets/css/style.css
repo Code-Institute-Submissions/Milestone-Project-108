@@ -19,6 +19,8 @@ p {
 	text-transform: uppercase;
 	font-size: 3rem;
     color: #4d4d55;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .container-fluid {
@@ -43,6 +45,10 @@ h4 {
 /*-------------------------------------------Colours*/
 .bg--white {
 	background: #ffffff
+}
+
+.bg--offwhite {
+    background-color: #fafafa;
 }
 
 .black--text {
@@ -176,7 +182,7 @@ h4 {
 }
 
 .about-image {
-background: url("../images/dog-image-running.jpg");
+    background: url("../images/dog-image-about.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -188,6 +194,7 @@ background: url("../images/dog-image-running.jpg");
 	font-size: 3.5rem;
 	line-height: 1.5;
 	border-radius: .3rem;
+    margin-top: 1rem;
 }
 
 /*-------------------------------------------Carousel Section*/
@@ -203,6 +210,8 @@ background: url("../images/dog-image-running.jpg");
     font-size: 2rem;
 	font-family: 'Quicksand', sans-serif;
     color: #4d4d55;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .carousel-image {
@@ -362,6 +371,11 @@ footer {
  .services-section h3 {
     font-size: 2rem;
 	font-family: 'Quicksand', sans-serif;
-    text-align: center;
     color: #4d4d55;
+    margin-bottom: 2rem;
+    
+ }
+
+ .services-section h3 a {
+    text-align: center;
  }
