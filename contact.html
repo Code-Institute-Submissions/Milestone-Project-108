@@ -37,31 +37,46 @@
          </nav>
          <!-- /.Navbar -->
          <!-- Contact Section -->
-        <section class="contact-section">
-        <form>
+        <section class="container-fluid contact-section">
+         <h2 class="uppercase text-center">Contact Us</h2>
+            <hr class="block-divider block-divider--orange">
+            <h3 class="text-center">Fill in the form below with a description of how we can help you and your dog. We'll get back to you within 24 hours - even on weekends!</h3>
+            <br>
+            <div class="row">
+            <div class="col-md-4 contact-image">
+                  <div class="row">
+                     <div class="col-12"></div>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="row">
+                     <div class="col">
+            <div class="form-position">
+                  <form>
+                   <div class="form-group">
+                           <label for="fullName">Name</label>
+                           <input type="text" class="form-control" id="fullName"
+                              aria-describedby="nameHelp" placeholder="Enter full name">
+                        </div>
                         <div class="form-group">
-                           <label class="form-text-md" for="emailAddress">Email address</label>
-                           <input type="email" class="form-control form-text-ph" id="emailAddress"
+                           <label for="emailAddress">Email Address</label>
+                           <input type="email" class="form-control" id="emailAddress"
                               aria-describedby="emailHelp" placeholder="Enter email">
-                           <small id="emailHelp" class="form-text text-muted form-text-sm">We'll never share your
+                           <small id="emailHelp" class="form-text">We'll never share your
                            email with anyone else.</small>
                         </div>
                         <div class="form-group">
-                           <label class="form-text-md" for="phoneNumber">Phone number</label>
-                           <input type="text" class="form-control form-text-ph" id="phoneNumber"
-                              aria-describedby="phoneHelp" placeholder="Enter phone number">
-                           <small id="phoneHelp" class="form-text text-muted form-text-sm">Please tell us in your
-                           message if you would like us to call you back.</small>
+                           <label for="message-text" class="col-form-label">Message:</label>
+                           <textarea rows="6" class="form-control" id="message-text"></textarea>
+                           <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal">Send</button>
                         </div>
-                        <div class="form-group">
-                           <label for="message-text" class="col-form-label form-text-md">Message:</label>
-                           <textarea rows="10" class="form-control" id="message-text"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal form-text-md">Submit
-                        </button>
                      </form>
+                     </div>
+                     </div>
+                     </div>
+                     </div>
+                     </div>
         </section>
-         
          <!-- Contact Section -->
          <!-- Footer Section -->
          <footer class="footer-section">
@@ -71,9 +86,6 @@
                   <p>Scotty's Dog Training & Behaviour</p>
                   <p>South Dublin</p>
                   <p><a href="tel:0862175988" class="phone">0862175988</a></p>
-                  <button class="btn btn-primary btn-md btn-bg--orange btn-footer" data-toggle="modal"
-                     data-target="#contactModal">Message Us!
-                  </button>
                </div>
                <div class="col-12 col-md-4 text-center">
                   <h3 class="uppercase">Follow Us</h3>
@@ -120,44 +132,6 @@
             <div class="footer-copyright text-center py-3">© 2020 Copyright: Scott Frew</div>
          </footer>
          <!-- /.Footer Section -->
-         <!-- Model Form -->
-         <div class="modal" tabindex="-1" role="dialog" id="contactModal">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Send us a message and we'll get back to you!</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                     </button>
-                  </div>
-                  <div class="modal-body">
-                     <form>
-                        <div class="form-group">
-                           <label class="modal-text-md" for="emailAddress">Email address</label>
-                           <input type="email" class="form-control modal-text-ph" id="emailAddress"
-                              aria-describedby="emailHelp" placeholder="Enter email">
-                           <small id="emailHelp" class="form-text text-muted modal-text-sm">We'll never share your
-                           email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                           <label class="modal-text-md" for="phoneNumber">Phone number</label>
-                           <input type="text" class="form-control modal-text-ph" id="phoneNumber"
-                              aria-describedby="phoneHelp" placeholder="Enter phone number">
-                           <small id="phoneHelp" class="form-text text-muted modal-text-sm">Please tell us in your
-                           message if you would like us to call you back.</small>
-                        </div>
-                        <div class="form-group">
-                           <label for="message-text" class="col-form-label modal-text-md">Message:</label>
-                           <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal modal-text-md">Submit
-                        </button>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- /.Model Form -->
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
