@@ -322,8 +322,32 @@ footer {
 
 
  /*-------------------------------------------Services Section*/
- .services-image {
-	background: url("../images/dog-image-running.jpg");
+ .services-image1 {
+	background: url("../images/dog-image-online3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 36rem;
+ }
+
+ .services-image2 {
+	background: url("../images/dog-image-gallery9.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 36rem;
+ }
+
+ .services-image3 {
+	background: url("../images/dog-image-gallery10.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 36rem;
+ }
+
+ .services-image4 {
+	background: url("../images/dog-image-online.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
