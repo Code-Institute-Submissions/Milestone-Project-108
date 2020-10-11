@@ -1,5 +1,5 @@
 /*-------------------------------------------Imported Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap');
 
 /*-------------------------------------------Global Font-Size set to 10px*/
 * {
@@ -12,7 +12,7 @@ body {
 }
 
 p {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .uppercase {
@@ -31,7 +31,7 @@ p {
 	width: 10rem;
 	height: .5rem;
 	border: 0;
-	background-color: #4d4d55;
+	background-color: #212529;
 }
 
 h1,
@@ -55,35 +55,35 @@ h4 {
 }
 
 .btn-bg--charcoal {
-	background: #4d4d55;
+	background: #212529;
 	border: none;
 }
 
 .btn-bg--white {
 	background: #ffffff;
-	color: #4d4d55;
+	color: #212529;
 	border: none;
 }
 
 .btn:hover {
-	background: #fbc117;
+	background: #fca311;
 	color: #ffffff;
 }
 
 .btn-bg--orange {
-	background: #fbc117;
-	color: #4d4d55;
+	background: #fca311;
+	color: #212529;
 	border: none;
 }
 
 .btn-bg--orange:hover {
 	background: #ffffff;
-	color: #4d4d55;
+	color: #212529;
 	border: none;
 }
 
 .block-divider--orange {
-	background: #fbc117;
+	background: #fca311;
 }
 
 /*-------------------------------------------Navbar*/
@@ -103,7 +103,7 @@ h4 {
 }
 
 .navbar-brand {
-	color: #4d4d55;
+	color: #212529;
 	padding-bottom: 2rem;
 }
 
@@ -123,7 +123,7 @@ h4 {
 	display: block;
 	padding: .5rem 1rem;
 	font-size: 2.5rem;
-	color: #4d4d55;
+	color: #212529;
 	letter-spacing: .25rem;
 }
 
@@ -160,8 +160,8 @@ h4 {
 
 .about-section h3 {
     font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
 }
 
 .about-image {
@@ -187,18 +187,14 @@ h4 {
 
 .features-section h3 {
     font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
 
 .card {
     border: none;
-}
-
-.carousel-indicators li {
-	background-color: #fbc117;
 }
 
 /*-------------------------------------------Gallery Section*/
@@ -212,7 +208,7 @@ h4 {
 
 .gallery-section h3 {
 	font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
@@ -231,7 +227,7 @@ h4 {
 
 /*-------------------------------------------Footer Section*/
 footer {
-	background-color: #4d4d55;
+	background-color: #212529;
 	color: #fafafa;
 	min-height: 12rem;
 	margin: 0;
@@ -301,7 +297,7 @@ footer {
 }
 
 .social-links li a i:hover {
-	background: #fbc117;
+	background: #fca311;
 }
 
 .footer-copyright {
@@ -336,8 +332,8 @@ footer {
 
  .services-section h3 {
     font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
     margin-bottom: 2rem;
  }
 
@@ -356,8 +352,8 @@ footer {
 
  .contact-section h3 {
     font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     margin: 0 auto;
@@ -370,23 +366,23 @@ footer {
 
 .form-group label {
     font-size: 2rem;
-    font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
     text-align: left;
 }
 
 .form-control {
     font-size: 1.5rem;
-    font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
     text-align: left;
     background: #fafafa;
 }
 
 .form-text {
     font-size: 1.25rem;
-    font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
     text-align: left;
 }
 
@@ -400,13 +396,13 @@ footer {
 
 .contact-options h2 i {
     font-size: 2.75rem;
-     color: #4d4d55;
+     color: #212529;
 }
 
 .contact-section a {
     font-size: 2rem;
-	font-family: 'Quicksand', sans-serif;
-    color: #4d4d55;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     margin: 0 auto;
