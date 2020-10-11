@@ -347,7 +347,7 @@ footer {
  }
 
  .services-image4 {
-	background: url("../images/dog-image-online.jpg");
+	background: url("../images/dog-image-puppy4.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -359,6 +359,15 @@ footer {
 	font-family: 'Open Sans', sans-serif;
     color: #212529;
     margin-bottom: 2rem;
+    padding-top: 2rem;
+ }
+
+ .services-section p {
+    font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
+    padding: 0;
+    margin: 0;
  }
 
  .services-section h3 a {
