@@ -62,7 +62,7 @@ Contact methods include a form, a phone number, an email address, and social med
 #### Footer 
 - Fixed and will contain contact information, social media presence, and links to the services page. 
 
-## Skeleton
+### Skeleton
 - The site will be designed to allow the user to flow effortlessly from the home page to the contact us page with just the right amount of information to spark curiosity in the customer. The conversion goal for phase one of the site release is for the customer to contact the site owner.
 - Each page will have a navigation bar to allow the user to self navigate. 
 - Home page will have 3 or 4 featured products max, with each product having a clickable CTA that will navigate to the main services page where more detailed information is provided. 
@@ -150,7 +150,7 @@ Log into my Github account.
 1. Click the HTTPs section (a red line should be displayed underneath).
 1. To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. 
 1. Open your IDE terminal
-1. Type ‘git clone’ and paste in the url you just copied - it should look like this ~ *$ git clone https://github.com/scotty-james/Milestone-Project-1.git* ~
+1. Type ‘git clone’ and paste in the url you just copied - it should look like this `$ git clone https://github.com/scotty-james/Milestone-Project-1.git`
 1. Press enter which will then create your local clone. 
 
 ## Credits
