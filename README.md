@@ -1,8 +1,12 @@
+![Website Logo](assets/images/logo-image1.png)
+
 # Scotty’s Dog Training & Behaviour
 
 The intent of this project is to create a fictitious website for a professional dog trainer who specialises in dog training & behaviour modification. 
 
 The website is for educational purposes only
+
+![Device Responsiveness Image](assets/readme_images/responsive-image.png)
  
 ## UX
  
@@ -59,17 +63,17 @@ Contact methods include a form, a phone number, an email address, and social med
 - Fixed and will contain contact information, social media presence, and links to the services page. 
 
 ## Skeleton
-- The site will be designed to allow the customer to flow effortlessly from the home page to the contact us page with just the right amount of information to spark curiosity in the customer. The conversion goal for phase one of the site release is for the customer to contact the site owner.
-- Each page will have a navigation bar to allow the customer to self navigate. 
+- The site will be designed to allow the user to flow effortlessly from the home page to the contact us page with just the right amount of information to spark curiosity in the customer. The conversion goal for phase one of the site release is for the customer to contact the site owner.
+- Each page will have a navigation bar to allow the user to self navigate. 
 - Home page will have 3 or 4 featured products max, with each product having a clickable CTA that will navigate to the main services page where more detailed information is provided. 
 - The main services page will provide more detail on each service offered, with each having a clickable CTA that navigates the customer to the Contact us page. 
 - The Contact us page will provide a simple contact form with a text box for the user to provide a description of their needs. Additional contact methods will be displayed underneath the form (phone number, email address, social)
 - The site navigation is designed to take the customer to the contact form page in 3 clicks max. 
 
 ### Mobile Wireframes
-![Mobile Wireframes](assets/images/mobile-wireframes.png)
+![Mobile Wireframes](assets/readme_images/mobile-wireframes.png)
 
-[Wifeframes for both mobile and desktop can be found here](assets/docs/website-wireframes.pdf)
+[Wifeframes for both mobile and desktop can be found here](https://github.com/scotty-james/Milestone-Project-1/blob/master/assets/docs/website-wireframes.pdf)
 
 ## Surface
 - The site look and feel will be simplistic in design and have a high proportion of images.
@@ -83,13 +87,10 @@ The main color scheme used throughout the site are
 - #212529
 - #fca311
 
-![Colour Palette](assets/images/colour-palette.png)
+![Colour Palette](assets/readme_images/colour-palette.png)
 
 ### Typography
 I have used 2 fonts throughout the site which were paired in [google fonts](https://fonts.google.com/specimen/Open+Sans+Condensed#pairings) - Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the iste and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
-
-
-
 
 ## Features
  
@@ -129,6 +130,28 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 ## Testing
 
 ## Deployment
+The following steps were taken to deploy this website to Github pages from it’s main Github repository. 
+Log into my Github account.
+1. Navigate to the site’s repository.
+1. Under the site repositories name, click ‘Settings’
+![Deployment Step Image](assets/readme_images/deploy-image1.png)
+1. Scroll down the page to ‘GitHub Pages section’
+1. Under Source, click on the dropdown tab that is defaulted to ‘None’
+1. Select ‘Branch: Master, then hit Save. 
+![Deployment Step Image](assets/readme_images/deploy-image2.png)
+1. At this point, the page is automatically refreshed and the website is deployed. 
+1. Scroll back down to the GitHub pages section to obtain the url to the newly published site. 
+![Deployment Step Image](assets/readme_images/deploy-image3.png)
+
+## How To run this Project Locally
+
+1. [click here to access the site's repository](https://github.com/scotty-james/Milestone-Project-1)
+1. Underneath the repository name, click ‘Code’ which will open a drop down menu. 
+1. Click the HTTPs section (a red line should be displayed underneath).
+1. To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. 
+1. Open your IDE terminal
+1. Type ‘git clone’ and paste in the url you just copied - it should look like this ~ *$ git clone https://github.com/scotty-james/Milestone-Project-1.git* ~
+1. Press enter which will then create your local clone. 
 
 ## Credits
 
@@ -174,6 +197,6 @@ Resources used for general learning / problem solving
 
 ### Acknowledgements
 I would like to thank and acknowledge the following: 
-- My mentor Spencer Barriball for the kind owrds of encouragement right from our very first planning call, and for providing inspiration and guidance throughout the project. 
-- The Code Institute Slack Community for daily inspiration and providing a real sense of community and togetherness. The information shared in the community has been extremely valuable and my number one source of information and troubleshooting. 
+- My mentor Spencer Barriball for the kind words of encouragement right from my very first planning call, and for providing inspiration and guidance throughout the project. 
+- The Code Institute Slack Community for daily inspiration and providing a real sense of community and togetherness. The information shared in the community has been extremely valuable and my number one source of information and troubleshooting. I've learned so much in such a short space of time from this group of people and for that I am grateful!
 - The module Lead, Jimmy Lynx, for providing constant support in the slack channel and a really valuable MS1 planning call, of which I got a great deal of learning from. 
