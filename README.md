@@ -80,10 +80,11 @@ The main color scheme used throughout the site are
 - #212529
 - #fca311
 
-Image of colour pallette
+
+![Colour Palette](assets/images/colour-palette.png)
 
 ### Typography
-I have used 2 fonts throughout the site which were paired in google fonts: Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the iste and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
+I have used 2 fonts throughout the site which were paired in [google fonts](https://fonts.google.com/specimen/Open+Sans+Condensed#pairings) - Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the iste and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
 
 
 
@@ -115,13 +116,13 @@ I have used 2 fonts throughout the site which were paired in google fonts: Open 
 - CSS3
 
 ### Frameworks & Libraries
-- Boostrap 
-- Google Fonts
-- Font Awesome 
-- Git 
-- GitHub
-- Balsamic
-- Coolors
+- [Boostrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framwork for structuring the website. 
+- [Google Fonts](https://fonts.google.com/) - used to select the text font to be used throughout the site. 
+- [Font Awesome](https://fontawesome.com/icons?d=gallery) - for the icon graphics used on the contact-us page.
+- [Gitpod](https://www.gitpod.io/) - used as my IDE.
+- [GitHub](https://github.com/) - for my Git repository.
+- [Balsamic](https://balsamiq.com/) - used to create the website wireframes.
+- [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
 
 ## Testing
 
@@ -135,25 +136,23 @@ I have used 2 fonts throughout the site which were paired in google fonts: Open 
 - The photo images used in this site were obtained from Canva.com unless specifically stated below. 
 
 ### Code
-#### Bootstrap documentation was used as the main structure for the site, this included the following:
+[Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) documentation was used as the main structure for the site, this included the following:
 - Navbar
 - Bootstrap Cards
 - Bootstrap Carousel (included in a earlier version of the site but removed mid way in favour of bootstrap cards)
 
-Footer copyright: https://mdbootstrap.com/docs/jquery/navigation/footer/ 
+Footer copyright code snippet was taken from [mdbootstrap](https://mdbootstrap.com/docs/jquery/navigation/footer/)
 
-CSS Grid
-- https://css-tricks.com/snippets/css/complete-guide-grid/
-- https://css-tricks.com/introduction-fr-css-unit/
-- https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/
+The following resources were used for the CSS grid layout for the image gallery with modifications made.
+- [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Tricks](https://css-tricks.com/introduction-fr-css-unit/)
+- [EVAN MINTO](https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/)
 
-Stretched links used throughout site
-- https://www.w3schools.com/bootstrap4/bootstrap_cards.asp 
+For the Stretched links used throughout the site - [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_cards.asp) 
 
-centering content on mobile only 
-- https://stackoverflow.com/questions/29562527/twitter-bootstrap-text-center-when-in-xs-mode
+To get the content on the services page to center only on mobile I used the code snippet from [Stack Overflow](https://stackoverflow.com/questions/29562527/twitter-bootstrap-text-center-when-in-xs-mode)
 
-Code Institute: 
+[Code Institute:](https://codeinstitute.net/) 
 Inspiration throughout the site in terms of code structure was taken from both Resume and Whiskey drop mini projects. 
 Footer Modal - Whiskey Drop Project (modal was then re designed and content / structure modified)
 
