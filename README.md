@@ -66,7 +66,10 @@ Contact methods include a form, a phone number, an email address, and social med
 - The Contact us page will provide a simple contact form with a text box for the user to provide a description of their needs. Additional contact methods will be displayed underneath the form (phone number, email address, social)
 - The site navigation is designed to take the customer to the contact form page in 3 clicks max. 
 
-#### Link to wireframes here (add new directory in IDE)
+### Mobile Wireframes
+![Mobile Wireframes](assets/images/mobile-wireframes.png)
+
+[Wifeframes for both mobile and desktop can be found here](assets/docs/website-wireframes.pdf)
 
 ## Surface
 - The site look and feel will be simplistic in design and have a high proportion of images.
@@ -79,7 +82,6 @@ My main goal for the site design is simplistic and clean throughout. I wanted to
 The main color scheme used throughout the site are 
 - #212529
 - #fca311
-
 
 ![Colour Palette](assets/images/colour-palette.png)
 
