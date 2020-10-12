@@ -21,6 +21,7 @@ p {
 	font-size: 3rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .container-fluid {
@@ -76,6 +77,11 @@ p {
 	border: none;
 }
 
+.btn-wide {
+    width: 25rem;
+    text-align: center;
+}
+
 .block-divider--orange {
 	background: #fca311;
 }
@@ -126,9 +132,6 @@ p {
 .callout-section {
 	height: 100vh;
 	background: url('../images/dog-image-hero.jpg') no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -173,6 +176,7 @@ p {
 	line-height: 1.5;
 	border-radius: .3rem;
     margin-top: 1rem;
+    border: none;
 }
 
 /*-------------------------------------------Features Section*/
@@ -198,7 +202,8 @@ p {
 }
 
 .gallery-section h2 {
-	padding-bottom: 1rem;
+	padding: 0;
+    margin: 0;
 }
 
 .gallery-section h3 {
@@ -382,10 +387,18 @@ footer {
     font-size: 2rem;
 	font-family: 'Open Sans', sans-serif;
     color: #212529;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    margin: 0 auto;
+    text-align: center;
  }
+
+ .contact-section h3 i {
+     font-size: 2rem;
+ }
+
+  .contact-section p a {
+    font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+    color: #212529;
+  }
 
 .form-position {
     padding-top: 1.5rem;
@@ -413,24 +426,6 @@ footer {
     text-align: left;
 }
 
-.contact-options {
-    background: #fafafa;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 2rem;
-    margin: auto;
-}
-
-.contact-options h2 i {
-    font-size: 2.75rem;
-     color: #212529;
-}
-
-.contact-section a {
-    font-size: 2rem;
-	font-family: 'Open Sans', sans-serif;
-    color: #212529;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    margin: 0 auto;
+.align-center {
+    text-align: Center !important;
 }

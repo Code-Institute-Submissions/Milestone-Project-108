@@ -126,6 +126,7 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - [GitHub](https://github.com/) - for my Git repository.
 - [Balsamic](https://balsamiq.com/) - used to create the website wireframes.
 - [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
+- [Tinyjpg](https://tinyjpg.com/) - used for image resizing.
 
 ## Testing
 
