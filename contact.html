@@ -10,7 +10,7 @@
       <title>Scotty's Dog Training</title>
    </head>
    <body>
-      <!-- Navbar -->
+      <!-- Navbar / Taken from Bootsrap Documentation and Modified-->
       <div class="container-fluid">
          <nav class="navbar navbar-expand-lg text-right navbar-light bg--white">
             <a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo-image1.png" alt="image of business brand logo which has brand name and animation of a dog"></a>
@@ -28,14 +28,14 @@
             </div>
          </nav>
          <!-- /.Navbar -->
-         <!-- Contact Section -->
-        <section class="container-fluid contact-section">
-         <h2 class="uppercase text-center">Contact Us</h2>
+         <!-- Contact Section / Form taken from bootstrap modal and modified-->
+         <section class="container-fluid contact-section">
+            <h2 class="uppercase text-center">Contact Us</h2>
             <hr class="block-divider block-divider--orange">
             <h3 class="text-center">Fill in the form below with a description of how we can help you and your dog. We'll get back to you within 24 hours - even on weekends!</h3>
             <br>
             <div class="row">
-            <div class="col-md-4 contact-image">
+               <div class="col-md-4 contact-image">
                   <div class="row">
                      <div class="col-12"></div>
                   </div>
@@ -43,50 +43,50 @@
                <div class="col-md-8">
                   <div class="row">
                      <div class="col">
-            <div class="form-position">
-                  <form>
-                   <div class="form-group">
-                           <label for="fullName">Name</label>
-                           <input type="text" class="form-control" id="fullName"
-                              aria-describedby="nameHelp" placeholder="Enter full name" required>
+                        <div class="form-position">
+                           <form>
+                              <div class="form-group">
+                                 <label for="fullName">Name</label>
+                                 <input type="text" class="form-control" id="fullName"
+                                    aria-describedby="nameHelp" placeholder="Enter full name" required>
+                              </div>
+                              <div class="form-group">
+                                 <label for="emailAddress">Email Address</label>
+                                 <input type="email" class="form-control" id="emailAddress"
+                                    aria-describedby="emailHelp" placeholder="Enter email" required>
+                                 <small id="emailHelp" class="form-text">We'll never share your
+                                 email with anyone else.</small>
+                              </div>
+                              <div class="form-group">
+                                 <label for="message-text" class="col-form-label">Message:</label>
+                                 <textarea rows="6" class="form-control" id="message-text"></textarea>
+                                 <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal">Send</button>
+                              </div>
+                           </form>
                         </div>
-                        <div class="form-group">
-                           <label for="emailAddress">Email Address</label>
-                           <input type="email" class="form-control" id="emailAddress"
-                              aria-describedby="emailHelp" placeholder="Enter email" required>
-                           <small id="emailHelp" class="form-text">We'll never share your
-                           email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                           <label for="message-text" class="col-form-label">Message:</label>
-                           <textarea rows="6" class="form-control" id="message-text"></textarea>
-                           <button type="submit" class="btn btn-primary btn-lg btn-bg--charcoal">Send</button>
-                        </div>
-                     </form>
                      </div>
-                     </div>
-                     </div>
-                     </div>
-                     </div>
-                     <br>
-                     <div class="row contact-options">
-                    <div class="col-sm">
-                    <h2 class="uppercase text-center"><i class="fas fa-phone-alt" aria-hidden="true"></i> phone</h2>
-            <hr class="block-divider block-divider--orange">
-              <h3 class="text-center"><a href="tel:0862175988">0862175988</a></h3>
-                    </div>
-                    <div class="col-sm">
-                    <h2 class="uppercase text-center"><i class="far fa-paper-plane" aria-hidden="true"></i> email</h2>
-            <hr class="block-divider block-divider--orange">
-            <h3 class="text-center"><a href="mailto:woof@scottysdogs.com">woof@scottysdogs.com</a></h3>
-                    </div>
-                     <div class="col-sm">
-                     <h2 class="uppercase text-center"><i class="fab fa-instagram" aria-hidden="true"></i> Social</h2>
-            <hr class="block-divider block-divider--orange">
-            <h3 class="text-center"><a href="https://www.instagram.com" target="_blank">Message us on Instagram</a></h3>
-                     </div>
-                    </div>
-                    </section>
+                  </div>
+               </div>
+            </div>
+            <br>
+            <div class="row contact-options">
+               <div class="col-sm">
+                  <h2 class="uppercase text-center"><i class="fas fa-phone-alt" aria-hidden="true"></i> phone</h2>
+                  <hr class="block-divider block-divider--orange">
+                  <h3 class="text-center"><a href="tel:0862175988">0862175988</a></h3>
+               </div>
+               <div class="col-sm">
+                  <h2 class="uppercase text-center"><i class="far fa-paper-plane" aria-hidden="true"></i> email</h2>
+                  <hr class="block-divider block-divider--orange">
+                  <h3 class="text-center"><a href="mailto:woof@scottysdogs.com">woof@scottysdogs.com</a></h3>
+               </div>
+               <div class="col-sm">
+                  <h2 class="uppercase text-center"><i class="fab fa-instagram" aria-hidden="true"></i> Social</h2>
+                  <hr class="block-divider block-divider--orange">
+                  <h3 class="text-center"><a href="https://www.instagram.com" target="_blank">Message us on Instagram</a></h3>
+               </div>
+            </div>
+         </section>
          <!-- Contact Section -->
          <!-- Footer Section -->
          <footer class="footer-section">
@@ -142,10 +142,12 @@
             <div class="footer-copyright text-center py-3">© 2020 Copyright: Scott Frew</div>
          </footer>
          <!-- /.Footer Section -->
+         <!-- Bootstrap Javascript-->
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+         <!-- /.Bootstrap Javascript-->
       </div>
    </body>
 </html>

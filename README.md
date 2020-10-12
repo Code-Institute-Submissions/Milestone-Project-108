@@ -172,6 +172,6 @@ Resources used for general learning / problem solving
 
 ### Acknowledgements
 I would like to thank and acknowledge the following: 
-- My mentor Spencer Baribald for making me feel so much at ease right from our very first planning call, and for providing inspiration and guidance throughout the project. 
+- My mentor Spencer Barriball for the kind owrds of encouragement right from our very first planning call, and for providing inspiration and guidance throughout the project. 
 - The Code Institute Slack Community for daily inspiration and providing a real sense of community and togetherness. The information shared in the community has been extremely valuable and my number one source of information and troubleshooting. 
 - The module Lead, Jimmy Lynx, for providing constant support in the slack channel and a really valuable MS1 planning call, of which I got a great deal of learning from. 
