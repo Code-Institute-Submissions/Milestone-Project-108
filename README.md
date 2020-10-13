@@ -1,13 +1,18 @@
 ![Website Logo](assets/images/logo-image1.png)
 
-# Scotty’s Dog Training & Behaviour
+# <p align="center">Scotty’s Dog Training & Behaviour
+<p align="center">This website is my first milestone project of the Code Institutes Full Stack Software Development Course. The goal of the project was to create a fictitious website for a professional Dog Trainer who specialises in dog training & behaviour modification.
+The target audience for the website are dog owners who need support in dog training and behaviour modification. The services are aimed at both new and existing customers and dogs of all ages and breeds. 
+The website is for educational purposes only</p>
 
-The intent of this project is to create a fictitious website for a professional dog trainer who specialises in dog training & behaviour modification. 
-
-The website is for educational purposes only
 
 ![Device Responsiveness Image](assets/readme_images/responsive-image.png)
+
+The image above is a visual of the site displayed on different devices using [I Am Responsive](http://ami.responsivedesign.is/#)
+
+### You can view the live site here: [www.scottysdogs.com](https://scotty-james.github.io/Milestone-Project-1/)
  
+
 ## UX
  
 ### User Stories
@@ -73,7 +78,7 @@ Contact methods include a form, a phone number, an email address, and social med
 ### Mobile Wireframes
 ![Mobile Wireframes](assets/readme_images/mobile-wireframes.png)
 
-[Wifeframes for both mobile and desktop can be found here](https://github.com/scotty-james/Milestone-Project-1/blob/master/assets/docs/website-wireframes.pdf)
+[Wireframes for both mobile and desktop can be found here](https://github.com/scotty-james/Milestone-Project-1/blob/master/assets/docs/website-wireframes.pdf)
 
 ## Surface
 - The site look and feel will be simplistic in design and have a high proportion of images.
@@ -119,7 +124,7 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - CSS3
 
 ### Frameworks & Libraries
-- [Boostrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framwork for structuring the website. 
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framework for structuring the website. 
 - [Google Fonts](https://fonts.google.com/) - used to select the text font to be used throughout the site. 
 - [Font Awesome](https://fontawesome.com/icons?d=gallery) - for the icon graphics used on the contact-us page.
 - [Gitpod](https://www.gitpod.io/) - used as my IDE.
@@ -127,6 +132,7 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - [Balsamic](https://balsamiq.com/) - used to create the website wireframes.
 - [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
 - [Tinyjpg](https://tinyjpg.com/) - used for image resizing.
+- [Favicon Generator](https://favicon.io/favicon-converter/) - used for generating the site favicon.
 
 ## Testing
 
@@ -184,7 +190,7 @@ Footer Modal - Whiskey Drop Project (modal was then re designed and content / st
 
 Contact Us form: Code from footer model reused and adapted / modified. 
 
-## Resources
+### Resources
 Resources used for general learning / problem solving
 - Code Institute Slack Community
 - Code Institute Course Content completed to date
