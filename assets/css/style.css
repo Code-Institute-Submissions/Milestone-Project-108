@@ -175,6 +175,11 @@ body {
     border: none;
 }
 
+.about-section i {
+    color: #fca311;
+    font-size: 2rem;
+}
+
 /*-------------------------------------------Features Section*/
 .features-section {
 	padding-top: 1rem;
@@ -193,13 +198,13 @@ body {
 }
 
 /*-------------------------------------------Gallery Section*/
+/*-----Code in [.image-gallery] taken and modified from https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/*/
 .gallery-section {
-	padding: 1rem 0;
+	padding: 0;
 }
 
 .gallery-section h2 {
-	padding: 0;
-    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .gallery-section h3 {
@@ -356,7 +361,6 @@ footer {
 	font-family: 'Open Sans', sans-serif;
     color: #212529;
     margin-bottom: 2rem;
-    padding-top: 2rem;
  }
 
  .services-section p {
