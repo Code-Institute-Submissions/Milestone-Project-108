@@ -254,21 +254,57 @@ As a dog owner, I want to work with a qualified professional that uses positive 
 - In the content contained within the about us section I’ve described how the training methodology used is both fun and can involve the entire family.
 - Getting the family involved in training is also encouraged to provide the user with confidence that their needs will be met. 
 
+![User Story Image](assets/readme_images/user_story_image1.png)
+
 As a dog owner, I want to be able to quickly see the types of services on offer, so that I can determine if the trainer is a right fit for me.
 - The next section the user will see as they move through the journey is the key services offered, which is broken into 3 key areas - in person 1 to 1 training, online training, and puppy training. 
 - It is the site owners intent to capture the broad range of issues the user is likely to be experiencing. The intent is to draw the customer further into the funnel, which details more granular level programs. 
-- As a new puppy owner, I want to be able to house train him/her as quickly as possible so that my dog learns good behaviours from an early age.
+
+![User Story Image](assets/readme_images/user_story_image2.png)
+
+As a new puppy owner, I want to be able to house train him/her as quickly as possible so that my dog learns good behaviours from an early age.
 - A very common need of all new puppy owners, therefore I have included this on the main page as a key feature. 
 - The user can click on this feature for further information, which then links the customer to more details of the program - which covers the most common needs of new puppy owners. 
+
+![User Story Image](assets/readme_images/user_story_image5.png)
 
 As a dog owner, I want to have the option of online training, so that I can still work on my dogs behaviour during the current pandemic.
 - Online training is a key diversification feature for any dog training business to survive during the current climate. I’ve included this above the fold on the main home page. Again in the key features section below the fold, and again in the services page as the first training program displayed. 
 - In the footer, I've also included this in the service links with an alert badge displayed to the right of the link to dra the customers attention - this is included in the footer of all pages. 
 
+![User Story Image](assets/readme_images/user_story_image3.png)
+
 As a dog owner, I want to see that the site owner is accessible so that I can contact easily when needed.
 - I’ve included a phone number and massage form in the footer of the Home page, the Gallery page and the Services Page. 
 - I’ve also included a dedicated contact us page which displayed multiple contact options to ensure choice depending on the ensures preferences. 
 - I removed the message button from the footer of the contact page as I deemed it unnecessary due to the level of contact options available throughout the page. 
+
+
+![User Story Image](assets/readme_images/user_story_image4.png)
+
+### Browser Validation
+
+In addition to testing on google chrome, I tested the all links and image display on the Safari and Firefox browsers. 
+
+### Site Performance Validation: 
+
+To test the sites performance I used Lighthouse in Chrome Dev Tools: 
+
+#### Results: 
+![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report1.png)
+
+
+The score is high on gallery.html, service.html and contact.html. Index.html scored lower for the following mainly reasons. 
+Render blocking resources: Bootstrap & Font Awesome Stylesheet links.
+Image sizes not being optimised. However, I have compressed the images as much as I can without affecting quality. 
+
+The site scored low on SEO mainly due to each file not having an appropriate meta description for the site's purpose. To solve this I added the following meta description: 
+
+`<meta name="description" content="Professional dog training and behaviour modification services">`
+
+I then restested performance on Lighthouse which demonstrated the following performnce improvement:
+
+![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report2.png)
 
 ---
 
