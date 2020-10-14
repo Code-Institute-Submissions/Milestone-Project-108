@@ -1,7 +1,7 @@
 ![Website Logo](assets/images/logo-image1.png)
 
 # <p align="center">Scotty’s Dog Training & Behaviour
-<p align="center">This website is my first milestone project of the Code Institutes Full Stack Software Development Course. The goal of the project was to create a fictitious website for a professional Dog Trainer who specialises in dog training & behaviour modification.
+<p align="center">This website is my first milestone project for the Code Institutes Full Stack Software Development Course. The goal of the project was to create a fictitious website for a professional Dog Trainer who specialises in dog training & behaviour modification.
 The target audience for the website are dog owners who need support in dog training and behaviour modification. The services are aimed at both new and existing customers and dogs of all ages and breeds. 
 The website is for educational purposes only</p>
 
@@ -54,7 +54,7 @@ The image above is a visual of the site displayed on different devices using [I 
 
 ---
 
-## UX
+## <p align="center"> UX
  
 ### User Stories
 
@@ -116,28 +116,29 @@ Contact methods include a form, a phone number, an email address, and social med
 - The Contact us page will provide a simple contact form with a text box for the user to provide a description of their needs. Additional contact methods will be displayed underneath the form (phone number, email address, social)
 - The site navigation is designed to take the customer to the contact form page in 3 clicks max. 
 
-### Mobile Wireframes
+#### Mobile Wireframes
 ![Mobile Wireframes](assets/readme_images/mobile-wireframes.png)
 
 [Wireframes for both mobile and desktop can be found here](https://github.com/scotty-james/Milestone-Project-1/blob/master/assets/docs/website-wireframes.pdf)
 
-## Surface
+### Surface
 
-### Design
+#### Design
 My main goal for the site design is simplistic and clean throughout. I wanted to provide a crisp design that did not have strong contrasting colors so that it was simple on the users eye as they navigated through each section.
 A stronger focus on dog related images is designed to create a strong emotional response from the sites target audience. 
 
-### Colour
+#### Colour
 The main color scheme used throughout the site are 
 - #212529
 - #fca311
 
 ![Colour Palette](assets/readme_images/colour-palette.png)
 
-### Typography
+#### Typography
 I have used 2 fonts throughout the site which were paired in [google fonts](https://fonts.google.com/specimen/Open+Sans+Condensed#pairings) - Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the iste and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
 
-## Features
+---
+## <p align="center">Features
  
 ### Existing Features
 - Navigation bar with links to each page to allow the user to move back and forth freely, and freely browse pages that interest them most.
@@ -156,8 +157,8 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - A page dedicated to class training programs that run for x number of weeks with a class schedule / timetable for future classes that can be booked in advance. 
 - Specific pages that provide valuable non purchasable content for the user to interact with and take away - for example, how dogs learn, fun facts, diet tips, blogs etc. 
 
-
-## Technologies Used
+---
+## <p align="center">Technologies Used
 
 ### Languages
 - HTML5
@@ -173,10 +174,12 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
 - [Tinyjpg](https://tinyjpg.com/) - used for image resizing.
 - [Favicon Generator](https://favicon.io/favicon-converter/) - used for generating the site favicon.
+---
+## <p align="center">Testing
 
-## Testing
+---
 
-## Deployment 
+## <p align="center">Deployment 
 ### Deployment Steps
 The following steps were taken to deploy this website to Github pages from it’s main Github repository. 
 Log into my Github account.
@@ -200,7 +203,9 @@ Log into my Github account.
 1. Type ‘git clone’ and paste in the url you just copied - it should look like this `$ git clone https://github.com/scotty-james/Milestone-Project-1.git`
 1. Press enter which will then create your local clone. 
 
-## Credits
+---
+
+## <p align="center">Credits
 
 ### Content
 - All content on the site was written by the website developer. 
@@ -230,7 +235,8 @@ Footer Modal - Whiskey Drop Project (modal was then re designed and content / st
 
 Contact Us form: Code from footer model reused and adapted / modified. 
 
-### Resources
+---
+## <p align="center">Resources
 Resources used for general learning / problem solving
 - Code Institute Slack Community
 - Code Institute Course Content completed to date
@@ -242,7 +248,8 @@ Resources used for general learning / problem solving
 - Anna Greeves’ Bootstrap Grid Tutorial
 - MDN Mozilla
 
-### Acknowledgements
+---
+## <p align="center"> Acknowledgements
 I would like to thank and acknowledge the following: 
 - My mentor Spencer Barriball for the kind words of encouragement right from my very first planning call, and for providing inspiration and guidance throughout the project. 
 - The Code Institute Slack Community for daily inspiration and providing a real sense of community and togetherness. The information shared in the community has been extremely valuable and my number one source of information and troubleshooting. I've learned so much in such a short space of time from this group of people and for that I am grateful!
