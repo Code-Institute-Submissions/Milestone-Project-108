@@ -324,10 +324,9 @@ footer {
      font-size: 1.5rem;
  }
 
-
  /*-------------------------------------------Services Section*/
  .services-image1 {
-	background: url("../images/dog-image-online3.jpg");
+	background: url("../images/dog-image-online1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

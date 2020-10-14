@@ -26,22 +26,30 @@ The image above is a visual of the site displayed on different devices using [I 
         - [*Home Page*](#home-page)
         - [*Services Page*](#services-page)
         - [*Image Gallery*](#image-gallery)
-        - [*Contact us page*](#contact-us-page)
+        - [*Contact page*](#contact-page)
         - [*Footer*](#footer)
     - [Skeleton](#skeleton)
-        - [*Wireframes*](#wireframes)
+        - [*Wireframes*](#mobile-wireframes)
     - [Surface](#surface)
         - [*Design*](#design)
         - [*Colour*](#colour)
         - [*Typography*](#typography)
 - [**Features**](#features)
     - [*Existing Features*](#existing-features)
-    - [*Features Left to Implement*](#features-left-to-imlement)
+    - [*Features Left to Implement*](#features-left-to-implement)
 - [**Technologies Used**](#technologies-used)
     - [*Languages*](#languages)
-    - [*Frameworks & Libraries*](#frameworks-&-libraries)
+    - [*Frameworks & Libraries*](#frameworks-and-libraries)
 - [**Testing**](#testing)
-    - [*Text*](#text)
+    - [*W3C Validation*](#w3c-validation)
+    - [*Responsiveness Validation*](#responsiveness-validation)
+    - [*Dev Tools*](#dev-tools)
+    - [*Link & Hover Validation*](#link-and-hover-validation)
+    - [*Form Validation*](#form-validation)
+    - [*Image Validation*](#image-validation)
+    - [*User Story Testing Validation*](#user-story-testing-validation)
+    - [*Browser Validation*](#browser-validation)
+    - [*Site Performance Validation*](#site-performance-validation)
 - [**Deployment**](#deployment)
     - [*Deployment Steps*](#deployment-steps)
     - [*How To run this Project Locally*](#how-to-run-this-project-locally)
@@ -102,7 +110,8 @@ Featured products with CTA’s that take the customer to the main Services page.
 Each product will have a CTA that navigates the customer to the contact us page. 
 #### Image Gallery
 - A simple gallery of images demonstrating past dog training sessions with customers and their dogs. 
-Contact us page. 
+
+#### Contact page
 Contact methods include a form, a phone number, an email address, and social media. 
 
 #### Footer 
@@ -164,7 +173,7 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - HTML5
 - CSS3
 
-### Frameworks & Libraries
+### Frameworks and Libraries
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framework for structuring the website. 
 - [Google Fonts](https://fonts.google.com/) - used to select the text font to be used throughout the site. 
 - [Font Awesome](https://fontawesome.com/icons?d=gallery) - for the icon graphics used on the contact-us page.
@@ -177,7 +186,7 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 ---
 ## <p align="center">Testing
 
-### W3C Validation:
+### W3C Validation
 
 I ran all files through the official W3C validator with the following results: 
 - Index.html: No errors or warnings to show.
@@ -186,7 +195,7 @@ I ran all files through the official W3C validator with the following results:
 - Contact.html: No errors or warnings to show.
 - style.css: Congratulations! No Error Found.
 
-### Responsiveness Validation:
+### Responsiveness Validation
 
 #### Dev Tools
 I used Chrome Dev Tools to check the site on available devices to ensure the site was fully responsive. I checked each page individually on each device type. 
@@ -200,7 +209,7 @@ I checked the site manually on the following devices - all pages check seperatel
 - Ipad Pro
 - Monitor Screen 
 
-#### Link & Hover Validation:
+#### Link And Hover Validation
 I went through each page individually to manually check that all links & hover styling worked as intended. This test was performed on both mobile and desktop devices. 
 
 - index.html: 
@@ -226,7 +235,7 @@ I went through each page individually to manually check that all links & hover s
 - Logo: 
     - Test the logo link on each page to ensure navigation back to index.html. 
 
-#### Form Validation: 
+#### Form Validation
 
 - Contact form on contact.html: 
     - Checked on both mobile, ipad and desktop devices. 
@@ -239,42 +248,42 @@ I went through each page individually to manually check that all links & hover s
     - Submit form without name added to ensure input field ‘required’ attribute was working correctly and alert displayed prompted customer to input email address.
     - Check the close button to ensure the form closes when prompted by the user. 
 
-#### Image Validation: 
+#### Image Validation
 -   I went through each page to ensure all images displayed correctly. 
 -   I went through HTML code on each file to ensure all Alt Text had been applied correctly to each image url.
 
 
-#### User Story Testing Validation: 
+#### User Story Testing Validation
 
-As a dog owner, I want to quickly see the website training methodology so that I know they align with my beliefs.
+*As a dog owner, I want to quickly see the website training methodology so that I know they align with my beliefs.*
 - I’ve included this just underneath the first CTA in the about us section which highlights the training methodology used which is positive reinforcement only.
 - This messaging is positioned early in the journey to ensure the user sees this before they move to the featured services section of the page. 
 
-As a dog owner, I want to work with a qualified professional that uses positive reinforcement training methods only so that my family and I can learn the tools for continuous positive training throughout our dog’s life.
+*As a dog owner, I want to work with a qualified professional that uses positive reinforcement training methods only so that my family and I can learn the tools for continuous positive training throughout our dog’s life.*
 - In the content contained within the about us section I’ve described how the training methodology used is both fun and can involve the entire family.
 - Getting the family involved in training is also encouraged to provide the user with confidence that their needs will be met. 
 
 ![User Story Image](assets/readme_images/user_story_image1.png)
 
-As a dog owner, I want to be able to quickly see the types of services on offer, so that I can determine if the trainer is a right fit for me.
+*As a dog owner, I want to be able to quickly see the types of services on offer, so that I can determine if the trainer is a right fit for me.*
 - The next section the user will see as they move through the journey is the key services offered, which is broken into 3 key areas - in person 1 to 1 training, online training, and puppy training. 
 - It is the site owners intent to capture the broad range of issues the user is likely to be experiencing. The intent is to draw the customer further into the funnel, which details more granular level programs. 
 
 ![User Story Image](assets/readme_images/user_story_image2.png)
 
-As a new puppy owner, I want to be able to house train him/her as quickly as possible so that my dog learns good behaviours from an early age.
+*As a new puppy owner, I want to be able to house train him/her as quickly as possible so that my dog learns good behaviours from an early age.*
 - A very common need of all new puppy owners, therefore I have included this on the main page as a key feature. 
 - The user can click on this feature for further information, which then links the customer to more details of the program - which covers the most common needs of new puppy owners. 
 
 ![User Story Image](assets/readme_images/user_story_image5.png)
 
-As a dog owner, I want to have the option of online training, so that I can still work on my dogs behaviour during the current pandemic.
+**As a dog owner, I want to have the option of online training, so that I can still work on my dogs behaviour during the current pandemic.*
 - Online training is a key diversification feature for any dog training business to survive during the current climate. I’ve included this above the fold on the main home page. Again in the key features section below the fold, and again in the services page as the first training program displayed. 
 - In the footer, I've also included this in the service links with an alert badge displayed to the right of the link to dra the customers attention - this is included in the footer of all pages. 
 
 ![User Story Image](assets/readme_images/user_story_image3.png)
 
-As a dog owner, I want to see that the site owner is accessible so that I can contact easily when needed.
+As a dog owner, I want to see that the site owner is accessible so that I can contact easily when needed.*
 - I’ve included a phone number and massage form in the footer of the Home page, the Gallery page and the Services Page. 
 - I’ve also included a dedicated contact us page which displayed multiple contact options to ensure choice depending on the ensures preferences. 
 - I removed the message button from the footer of the contact page as I deemed it unnecessary due to the level of contact options available throughout the page. 
@@ -286,7 +295,7 @@ As a dog owner, I want to see that the site owner is accessible so that I can co
 
 In addition to testing on google chrome, I tested the all links and image display on the Safari and Firefox browsers. 
 
-### Site Performance Validation: 
+### Site Performance Validation
 
 To test the sites performance I used Lighthouse in Chrome Dev Tools: 
 
