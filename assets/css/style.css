@@ -229,6 +229,18 @@ body {
     width: 100%
 }
 
+
+/*----Media Query added to ensure image responsive on screen size above 1700px*/
+@media screen and (min-width: 1600px) {
+    .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+    grid-auto-rows: 60rem;
+    grid-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+}
+
 /*-------------------------------------------Footer Section*/
 footer {
 	background-color: #212529;
@@ -426,4 +438,15 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: #212529;
     text-align: left;
+}
+
+
+@media screen and (min-width: 1600px) {
+    .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+    grid-auto-rows: 60rem;
+    grid-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
 }

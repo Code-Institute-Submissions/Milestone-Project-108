@@ -50,6 +50,7 @@ The image above is a visual of the site displayed on different devices using [I 
     - [*User Story Testing Validation*](#user-story-testing-validation)
     - [*Browser Validation*](#browser-validation)
     - [*Site Performance Validation*](#site-performance-validation)
+- [**Version Control Management**](#version-control-management )
 - [**Deployment**](#deployment)
     - [*Deployment Steps*](#deployment-steps)
     - [*How To run this Project Locally*](#how-to-run-this-project-locally)
@@ -67,7 +68,7 @@ The image above is a visual of the site displayed on different devices using [I 
 ### User Stories
 
 - As a dog owner, I want to quickly see the website training methodology so that I know they align with my beliefs. 
-- As a Dog Owner, I want to work with a qualified professional that uses positive reinforcement training methods only so that my family and I can learn the tools for continuous positive training throughout our dog’s life. 
+- As a dog owner, I want to work with a qualified professional that uses positive reinforcement training methods only so that my family and I can learn the tools for continuous positive training throughout our dog’s life. 
 - As a dog owner, I want to be able to quickly see the types of services on offer, so that I can determine if the trainer is a right fit for me. 
 - As a new puppy owner, I want to be able to house train him/her as quickly as possible so that my dog learns good behaviours from an early age. 
 - As a dog owner, I want to have the option of online training, so that I can still work on my dogs behaviour during the current pandemic. 
@@ -76,7 +77,7 @@ The image above is a visual of the site displayed on different devices using [I 
 ### Strategy
 
 #### External user’s goal
-- Find professional help in solving specific issues relating to their dog’s behaviour. The idea of owning a dog has become different from reality and they would want to improve their dogs behaviour which in turn will reduce stress levels. 
+- Find professional help in solving specific issues relating to their dog’s behaviour. The idea of owning a dog has become different from reality and they want to improve their dogs behaviour which in turn will reduce stress levels. 
 - The site must convey that the training methods used are positive reinforcement and the use of force in training is not acceptable.
 - A desire to understand dog training methods that can be practised easily in the home, getting the entire family involved. 
 - As the dog is an important member of the family, trust is key and must be conveyed throughout the site.
@@ -84,7 +85,7 @@ The image above is a visual of the site displayed on different devices using [I 
 #### Site owner's goal
 - Create a website that provides a specific need for Dog Owners (user) what will generate income via the sale of various dog training solutions.
 - Promote the importance of professional training and how this can  not only impact the dog’s life in a positive way, but also that of the entire family. 
-- Demonstrate that training is not as difficult as some may and individual training plans, combined with consistency and fun, real positive results are achievable. 
+- Demonstrate that training is not as difficult as some owners may perceive, and that individual training plans, combined with consistency and fun, real positive results are achievable. 
 - Demonstrate that the use of force in dog training no longer is acceptable nor desirable and that positive reinforcement techniques are key to how dogs learn. 
 
 ### Scope
@@ -128,6 +129,8 @@ Contact methods include a form, a phone number, an email address, and social med
 #### Mobile Wireframes
 ![Mobile Wireframes](assets/readme_images/mobile-wireframes.png)
 
+All wireframes were created using [Balsamic](https://balsamiq.com/).
+
 [Wireframes for both mobile and desktop can be found here](https://github.com/scotty-james/Milestone-Project-1/blob/master/assets/docs/website-wireframes.pdf)
 
 ### Surface
@@ -144,7 +147,7 @@ The main color scheme used throughout the site are
 ![Colour Palette](assets/readme_images/colour-palette.png)
 
 #### Typography
-I have used 2 fonts throughout the site which were paired in [google fonts](https://fonts.google.com/specimen/Open+Sans+Condensed#pairings) - Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the iste and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
+I have used 2 fonts throughout the site which were paired in [google fonts](https://fonts.google.com/specimen/Open+Sans+Condensed#pairings) - Open Sans Condensed and Open Sans. Open Sans condensed is used for Title Headings throughout the site and is set to uppercase whereas Open Sans is used for sub heading text. I had originally imported ‘Quicksand’ for the sub heading text however, once I added content to the site I felt the text didn't contrast well within the site, therefore changed to Open Sans for a better UX. 
 
 ---
 ## <p align="center">Features
@@ -159,12 +162,13 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - A simplistic contact us form, with phone, email and social contact options all in one page to enable flexibility and simplicity for the user to contact the site owner. 
 - A fixed footer with contact information, social links, and additional navigation links to services offered to add more ease in for the user experience.  
 - The website is responsive on all sites and built with a mobile first approach.
+- All phone number links contained in the site are ‘call-able’ and the e-mail address on the contact us page is linked to open the users default email application.
 
 ### Features Left to Implement
 - A booking form to allow customers to book training directly on site. 
 - A more detailed services page to provide the user with more information on how each training program can support their specific problem. 
 - A page dedicated to class training programs that run for x number of weeks with a class schedule / timetable for future classes that can be booked in advance. 
-- Specific pages that provide valuable non purchasable content for the user to interact with and take away - for example, how dogs learn, fun facts, diet tips, blogs etc. 
+- Specific pages that provide value in the form of free content for the user to interact with and take away - for example, how dogs learn, fun facts, diet tips, blogs etc. 
 
 ---
 ## <p align="center">Technologies Used
@@ -177,8 +181,8 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framework for structuring the website. 
 - [Google Fonts](https://fonts.google.com/) - used to select the text font to be used throughout the site. 
 - [Font Awesome](https://fontawesome.com/icons?d=gallery) - for the icon graphics used on the contact-us page.
-- [Gitpod](https://www.gitpod.io/) - used for version control via the Gitpod terminal by providing regular commits to Git, and pushing to GitHub.
-- [Git](https://git-scm.com/) - used as my IDE.
+- [Gitpod](https://www.gitpod.io/) - used as my IDE.
+- [Git](https://git-scm.com/) - used for version control via the Gitpod terminal by providing regular commits to Git using git. add, and pushing local git to git repository (GitHub)
 - [GitHub](https://github.com/) - for my Git repository.
 - [Balsamic](https://balsamiq.com/) - used to create the website wireframes.
 - [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
@@ -190,10 +194,10 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 ### W3C Validation
 
 I ran all files through the official W3C validator with the following results: 
-- Index.html: No errors or warnings to show.
-- Gallery.html: No errors or warnings to show.
-- Services.html: No errors or warnings to show.
-- Contact.html: No errors or warnings to show.
+- index.html: No errors or warnings to show.
+- gallery.html: No errors or warnings to show.
+- services.html: No errors or warnings to show.
+- contact.html: No errors or warnings to show.
 
 ![HTML Validator Results](assets/readme_images/html_validator.png)
 
@@ -204,11 +208,11 @@ I ran all files through the official W3C validator with the following results:
 ### Responsiveness Validation
 
 #### Dev Tools
-I used Chrome Dev Tools to check the site on available devices to ensure the site was fully responsive. I checked each page individually on each device type. 
+I used Chrome Dev Tools toggle device toolbar to check the site on available devices to ensure the site was fully responsive. I checked each page individually on each device type. 
 
 Manual Device Check:
 
-I checked the site manually on the following devices - all pages check seperately. 
+I checked the site manually on the following devices - all pages check checked separately.
 - Samsung S10
 - Iphone X
 - Macbook Pro 
@@ -221,7 +225,7 @@ I went through each page individually to manually check that all links & hover s
 - index.html: 
     - First call to action link on the hero image:
     - All 3 feature CTA’s under dog training programs:
-    - Footer links: Message us modal, all three social links, all four services links at the right hand side of the footer, and the badge alert in front of the ‘online training’ link.
+    - Footer links: -- Message us modal, all three social links, all four services links at the right hand side of the footer, and the badge alert in front of the ‘online training’ link.
 
 - Gallery.html:
     - Footer links: Message us modal, all three social links, all four services links at the right hand side of the footer, and the badge alert in front of the ‘online training’ link.
@@ -256,7 +260,7 @@ I went through each page individually to manually check that all links & hover s
 
 #### Image Validation
 -   I went through each page to ensure all images displayed correctly. 
--   I went through HTML code on each file to ensure all Alt Text had been applied correctly to each image url.
+-   I went through HTML code on each file to ensure all Alt Text had been applied correctly to each image url to validate accessibility requirements. 
 
 
 #### User Story Testing Validation
@@ -290,8 +294,8 @@ I went through each page individually to manually check that all links & hover s
 ![User Story Image](assets/readme_images/user_story_image3.png)
 
 As a dog owner, I want to see that the site owner is accessible so that I can contact easily when needed.*
-- I’ve included a phone number and massage form in the footer of the Home page, the Gallery page and the Services Page. 
-- I’ve also included a dedicated contact us page which displayed multiple contact options to ensure choice depending on the ensures preferences. 
+- I’ve included a phone number and massage us form in the footer of the Home page, the Gallery page and the Services Page. The phone number is ‘call-able when clicked, and the email link when clicked opens the users default email application.
+- I’ve also included a dedicated contact us page which displayed multiple contact options to ensure choice depending on the users preferences. 
 - I removed the message button from the footer of the contact page as I deemed it unnecessary due to the level of contact options available throughout the page. 
 
 
@@ -317,7 +321,7 @@ The site scored low on SEO mainly due to each file not having an appropriate met
 
 `<meta name="description" content="Professional dog training and behaviour modification services">`
 
-I then restested performance on Lighthouse which demonstrated the following performnce improvement:
+I then retested performance on Lighthouse which demonstrated the following performance improvement:
 
 ![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report2.png)
 
@@ -328,14 +332,24 @@ Bugs discovered in the final stages of development and during/after deployment
 | Bug         | Fix         |
 | ----------- | ----------- |
 |  All buttons were displaying a flash of blue behind the styled colour when clicked|  Upon investigation, I noticed the btn-primary class was still present in the html code, this was removed to resolve the issue.|
-|  The links contained within the main body of the home page were not navigating to the the correct location on services.html|I had previously updated the updated the ID targets in the footer to be more descriptive however these updates were not applied in these links, updated to resolve.  |
-|  On the gallery page, the images on the bottom row were overlapping onto the footer. |Added margin to the body to push create the required space that aligned with the grid-gap values in CSS. |
+|  The links contained within the main body of the home page were not navigating to the the correct location on services.html|I had previously updated the ID targets in the footer to be more descriptive however these updates were not applied in these links, updated to resolve.  |
+|  On the gallery page, the images on the bottom row were overlapping onto the footer. |Added margin to the body created the required space that aligned with the grid-gap values in CSS. |
 |  On the services page, the buttons were pressed hard against the bottom of the div| Added additional margin to increase the space and overall UI of the page. |
 |  On the gallery page, there was a lot of white space between the title and the block divider, which did not flow correctly when flicking from page to page |I removed unnecessary padding and margin to bring the style in line with the services and contact pages for a better UI. |
-|  The modal close button was displaying extremely small and hardly visible |I could not find the reason why this was the case in the first place, however, I fixed by targeting the span and increasing the font size in CSS|
+|  The modal close button was displaying extremely small and hardly visible |I could not find the reason why this was the case in the first place, however, I fixed by targeting the span tag and increasing the font size in CSS|
 |  The image on the contact page did not size well on mobile, cutting most of the image out |I resized the image as much as possible but quality was being affected. I fixed by replacing the image, which greatly improve UI|
 |  The hero image on the home page was displaying slightly to the left on mobile | Image was resized to create a more centered look and feel. I played around with various styling in an attempt to better center using CSS, but resizing provided a better look|
+|  Using the toggle device toolbar in chrome dev tools, I noticed the bottom row of images were not responsive on screen sizes above 1700px | Added media query to fix, retested and images responding as intended|
 ---
+
+## Version Control Management 
+
+For this project, I used Git for version control. 
+- All code was written in Gitpod.
+- At regular intervals and when new features were added to the site, I added my files to the staging environment using the `git add .` command. 
+- I then committed to the local repository using the `git commit -m` command. 
+- I then pushed the local git to my GitHub repository using the `git push` command. 
+- Throughout the development lifecycle of the site, I used commit messages that were in the imperative language.
 
 ## <p align="center">Deployment 
 ### Deployment Steps
@@ -353,7 +367,7 @@ Log into my Github account.
 ![Deployment Step Image](assets/readme_images/deploy-image3.png)
 
 ### How To run this Project Locally
-1. [click here to access the site's repository](https://github.com/scotty-james/Milestone-Project-1)
+1. [Click here to access the site's repository](https://github.com/scotty-james/Milestone-Project-1)
 1. Underneath the repository name, click ‘Code’ which will open a drop down menu. 
 1. Click the HTTPs section (a red line should be displayed underneath).
 1. To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. 
@@ -368,7 +382,7 @@ Log into my Github account.
 ### Content
 - All content on the site was written by the website developer. 
 ### Media
-- The photo images used in this site were obtained from Canva.com unless specifically stated below. 
+- The photo images used in this site were obtained from [Canva.com](https://www.canva.com/)
 
 ### Code
 [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) documentation was used as the main structure for the site, this included the following:
@@ -383,12 +397,12 @@ The following resources were used for the CSS grid layout for the image gallery 
 - [CSS Tricks](https://css-tricks.com/introduction-fr-css-unit/)
 - [EVAN MINTO](https://evanminto.com/blog/intrinsically-responsive-css-grid-minmax-min/)
 
-For the Stretched links used throughout the site - [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_cards.asp) 
+For the Stretched Links in all buttons, I discovered the class attribute in [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_cards.asp) 
 
 To get the content on the services page to center only on mobile I used the code snippet from [Stack Overflow](https://stackoverflow.com/questions/29562527/twitter-bootstrap-text-center-when-in-xs-mode)
 
 [Code Institute:](https://codeinstitute.net/) 
-Inspiration throughout the site in terms of code structure was taken from both Resume and Whiskey drop mini projects. 
+Inspiration throughout the site in terms of code structure was taken from both the Resume and Whiskey drop mini projects. 
 Footer Modal - Whiskey Drop Project (modal was then re designed and content / structure modified)
 
 Contact Us form: Code from footer model reused and adapted / modified. 
@@ -409,6 +423,6 @@ Resources used for general learning / problem solving
 ---
 ## <p align="center"> Acknowledgements
 I would like to thank and acknowledge the following: 
-- My mentor Spencer Barriball for the kind words of encouragement right from my very first planning call, and for providing inspiration and guidance throughout the project. 
+- My mentor Spencer Barriball for the kind words of encouragement right from my very first planning call, and for providing inspiration and guidance throughout the project - thank you! 
 - The Code Institute Slack Community for daily inspiration and providing a real sense of community and togetherness. The information shared in the community has been extremely valuable and my number one source of information and troubleshooting. I've learned so much in such a short space of time from this group of people and for that I am grateful!
-- The module Lead, Jimmy Lynx, for providing constant support in the slack channel and a really valuable MS1 planning call, of which I got a great deal of learning from. 
+- The module Lead, Jimmy Lynx, for providing constant support to others in the slack channel and a really valuable MS1 planning call, of which I got a great deal of learning from and helped me understand how to structure my project planning at an early stage in the module.
