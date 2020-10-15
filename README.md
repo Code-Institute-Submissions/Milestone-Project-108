@@ -177,7 +177,8 @@ I have used 2 fonts throughout the site which were paired in [google fonts](http
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - was used as my main framework for structuring the website. 
 - [Google Fonts](https://fonts.google.com/) - used to select the text font to be used throughout the site. 
 - [Font Awesome](https://fontawesome.com/icons?d=gallery) - for the icon graphics used on the contact-us page.
-- [Gitpod](https://www.gitpod.io/) - used as my IDE.
+- [Gitpod](https://www.gitpod.io/) - used for version control via the Gitpod terminal by providing regular commits to Git, and pushing to GitHub.
+- [Git](https://git-scm.com/) - used as my IDE.
 - [GitHub](https://github.com/) - for my Git repository.
 - [Balsamic](https://balsamiq.com/) - used to create the website wireframes.
 - [Coolors](https://coolors.co/) - used to pick the colour theme for the website.
@@ -193,7 +194,12 @@ I ran all files through the official W3C validator with the following results:
 - Gallery.html: No errors or warnings to show.
 - Services.html: No errors or warnings to show.
 - Contact.html: No errors or warnings to show.
+
+![HTML Validator Results](assets/readme_images/html_validator.png)
+
 - style.css: Congratulations! No Error Found.
+
+![HTML Validator Results](assets/readme_images/css_validator.png)
 
 ### Responsiveness Validation
 
@@ -315,6 +321,20 @@ I then restested performance on Lighthouse which demonstrated the following perf
 
 ![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report2.png)
 
+### Fixed Bugs
+
+Bugs discovered in the final stages of development and during/after deployment
+
+| Bug         | Fix         |
+| ----------- | ----------- |
+|  All buttons were displaying a flash of blue behind the styled colour when clicked|  Upon investigation, I noticed the btn-primary class was still present in the html code, this was removed to resolve the issue.|
+|  The links contained within the main body of the home page were not navigating to the the correct location on services.html|I had previously updated the updated the ID targets in the footer to be more descriptive however these updates were not applied in these links, updated to resolve.  |
+|  On the gallery page, the images on the bottom row were overlapping onto the footer. |Added margin to the body to push create the required space that aligned with the grid-gap values in CSS. |
+|  On the services page, the buttons were pressed hard against the bottom of the div| Added additional margin to increase the space and overall UI of the page. |
+|  On the gallery page, there was a lot of white space between the title and the block divider, which did not flow correctly when flicking from page to page |I removed unnecessary padding and margin to bring the style in line with the services and contact pages for a better UI. |
+|  The modal close button was displaying extremely small and hardly visible |I could not find the reason why this was the case in the first place, however, I fixed by targeting the span and increasing the font size in CSS|
+|  The image on the contact page did not size well on mobile, cutting most of the image out |I resized the image as much as possible but quality was being affected. I fixed by replacing the image, which greatly improve UI|
+|  The hero image on the home page was displaying slightly to the left on mobile | Image was resized to create a more centered look and feel. I played around with various styling in an attempt to better center using CSS, but resizing provided a better look|
 ---
 
 ## <p align="center">Deployment 
