@@ -334,7 +334,9 @@ I also tested index.html using the Desktop Device option, which produced a perfo
 
 ![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report3.png)
 
-### Fixed Bugs
+
+-----
+### <p align="center"> Fixed Bugs
 
 Bugs discovered in the final stages of development and during/after deployment
 
@@ -349,8 +351,12 @@ Bugs discovered in the final stages of development and during/after deployment
 |  The image on the contact page did not size well on mobile, cutting most of the image out |I resized the image as much as possible but quality was being affected. I fixed by replacing the image, which greatly improve UI|
 |  The hero image on the home page was displaying slightly to the left on mobile | Image was resized to create a more centered look and feel. I played around with various styling in an attempt to better center using CSS, but resizing provided a better look|
 |  Using the toggle device toolbar in chrome dev tools, I noticed the bottom row of images were not responsive on screen sizes above 1700px | Added media query to fix, retested and images responding as intended|
----
 
+No known bugs have been identifed on the site. 
+
+
+
+---
 ## <p align="center">Version Control Management 
 
 For this project, I used Git for version control. 
