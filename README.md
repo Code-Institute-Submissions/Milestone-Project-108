@@ -259,6 +259,7 @@ I went through each page individually to manually check that all links & hover s
     - Check the close button to ensure the form closes when prompted by the user. 
 
 #### Image Validation
+
 -   I went through each page to ensure all images displayed correctly. 
 -   I went through HTML code on each file to ensure all Alt Text had been applied correctly to each image url to validate accessibility requirements. 
 
@@ -307,15 +308,19 @@ In addition to testing on google chrome, I tested the all links and image displa
 
 ### Site Performance Validation
 
-To test the sites performance I used Lighthouse in Chrome Dev Tools: 
+To test the sites performance I used Lighthouse in Chrome Dev Tools using the Mobile Device option: 
 
 #### Results: 
 ![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report1.png)
 
 
-The score is high on gallery.html, service.html and contact.html. Index.html scored lower for the following mainly reasons. 
-Render blocking resources: Bootstrap & Font Awesome Stylesheet links.
-Image sizes not being optimised. However, I have compressed the images as much as I can without affecting quality. 
+The score is high on gallery.html, service.html and contact.html. Index.html scored lower for the following reasons.
+
+- Eliminate render-blocking resources: This is driven by the Bootstrap & Font Awesome Stylesheet links I have in head of the document. I researched ways to improve this, however, my current skill level needs further improvement in this area which I intend to explore further as I move through the course.
+
+![Lighthouse Site Performance Score Desktop](assets/readme_images/lighthouse-report4.png)
+
+- Image sizes not being optimised. However, I have compressed the images as much as I can without affecting quality. 
 
 The site scored low on SEO mainly due to each file not having an appropriate meta description for the site's purpose. To solve this I added the following meta description: 
 
@@ -324,6 +329,10 @@ The site scored low on SEO mainly due to each file not having an appropriate met
 I then retested performance on Lighthouse which demonstrated the following performance improvement:
 
 ![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report2.png)
+
+I also tested index.html using the Desktop Device option, which produced a performance score of 100%. 
+
+![Lighthouse Site Performance Score](assets/readme_images/lighthouse-report3.png)
 
 ### Fixed Bugs
 
@@ -342,7 +351,7 @@ Bugs discovered in the final stages of development and during/after deployment
 |  Using the toggle device toolbar in chrome dev tools, I noticed the bottom row of images were not responsive on screen sizes above 1700px | Added media query to fix, retested and images responding as intended|
 ---
 
-## Version Control Management 
+## <p align="center">Version Control Management 
 
 For this project, I used Git for version control. 
 - All code was written in Gitpod.
